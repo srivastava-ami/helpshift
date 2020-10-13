@@ -3,6 +3,8 @@ This repo will maintain the code for the Foundation App
 
 * IOS App
     * Swift
+    
+Note: iOS Deplyoment target 13
 
 Prerequisite for iOS app to develop:
 * cocopods
