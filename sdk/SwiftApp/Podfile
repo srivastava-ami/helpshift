@@ -1,0 +1,4 @@
+target 'FoundationApp' do
+  # Pods for Helpshift Support App
+  pod 'Helpshift', '7.8.1'
+end

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.helpshift:android-helpshift-aar:7.7.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7bb53679514b284ee2212da1b603a2eb/jetified-android-helpshift-aar-7.7.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7bb53679514b284ee2212da1b603a2eb/jetified-android-helpshift-aar-7.7.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7bb53679514b284ee2212da1b603a2eb/jetified-android-helpshift-aar-7.7.2/jars/libs/logger.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7bb53679514b284ee2212da1b603a2eb/jetified-android-helpshift-aar-7.7.2/jars/libs/HelpshiftLogger.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7bb53679514b284ee2212da1b603a2eb/jetified-android-helpshift-aar-7.7.2/jars/libs/Downloader.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7bb53679514b284ee2212da1b603a2eb/jetified-android-helpshift-aar-7.7.2/jars/libs/NVWebsockets.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7bb53679514b284ee2212da1b603a2eb/jetified-android-helpshift-aar-7.7.2/jars/libs/core.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-FoundationApp/Pods-FoundationApp-resources.sh
+${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.7.1/HsUIResources.bundle
+${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.7.1/HsLocalization.bundle
+${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.7.1/HSThemes/HelpshiftConfig.plist
+${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.7.1/HSThemes/HelpshiftConfigDark.plist
+${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.7.1/HSThemes/HelpshiftConfigDarkHighContrast.plist
+${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.7.1/HSThemes/HelpshiftConfigHighContrast.plist
