@@ -39,10 +39,10 @@
 		4252906D0D48B449998CDA0333FE627F /* Pods-FoundationApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoundationApp-dummy.m"; sourceTree = "<group>"; };
 		5A3EF460DAC2483498FD6B46BC164E5F /* libPods-FoundationApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FoundationApp.a"; path = "libPods-FoundationApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68DA5A1D6A456936661463E908C6B777 /* Pods-FoundationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoundationApp.release.xcconfig"; sourceTree = "<group>"; };
-		6D9EF302C3128AC5791B4CDA603828E9 /* Helpshift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Helpshift.framework; path = "helpshift-sdk-ios-v7.8.1/Helpshift.framework"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6CC37857750ADC22BD14095872BEB1B /* Helpshift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Helpshift.debug.xcconfig; sourceTree = "<group>"; };
 		D6EAE4466842E8A3BF97E6D97D28F6A3 /* Pods-FoundationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoundationApp.debug.xcconfig"; sourceTree = "<group>"; };
+		ED394C95658ED6997859CE86A050FA1F /* Helpshift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Helpshift.framework; path = "helpshift-sdk-ios-v7.9.1/Helpshift.framework"; sourceTree = "<group>"; };
 		FECB526B3614956E7D41DEB6566BDEA8 /* Pods-FoundationApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoundationApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +91,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B1D1B8995D1538B68CA8AE0EB6FEB474 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED394C95658ED6997859CE86A050FA1F /* Helpshift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -123,18 +131,10 @@
 			path = "Target Support Files/Pods-FoundationApp";
 			sourceTree = "<group>";
 		};
-		EB39E8C7334207000864E6DC6C873073 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6D9EF302C3128AC5791B4CDA603828E9 /* Helpshift.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		F02EC1859E1F343E431924744FEFE462 /* Helpshift */ = {
 			isa = PBXGroup;
 			children = (
-				EB39E8C7334207000864E6DC6C873073 /* Frameworks */,
+				B1D1B8995D1538B68CA8AE0EB6FEB474 /* Frameworks */,
 				5743704DD7B718A32C619A5CEF58F366 /* Support Files */,
 			);
 			name = Helpshift;

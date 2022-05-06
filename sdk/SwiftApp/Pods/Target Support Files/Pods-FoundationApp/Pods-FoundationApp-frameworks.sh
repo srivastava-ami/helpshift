@@ -197,10 +197,10 @@ if [ -r "${ARTIFACT_LIST_FILE}" ]; then
 fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.8.1/Helpshift.framework"
+  install_framework "${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.9.1/Helpshift.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.8.1/Helpshift.framework"
+  install_framework "${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.9.1/Helpshift.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

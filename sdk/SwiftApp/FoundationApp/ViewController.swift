@@ -62,17 +62,15 @@ class ViewController: UIViewController {
         let apiconfig = builder.build()
 //        HelpshiftSupport.showFAQs(self, with: cifbuilder.build());
         HelpshiftSupport.showFAQs(self, with: apiconfig)
-        
-        
-//        NSMutableDictionary.setDictionary(cifbuild);
-        
-        
-        
+                
     }
     
     
     @IBAction func ShowConversation(_ sender: Any) {
-        HelpshiftSupport.showConversation(self, with: nil)
+        let convbuilder = HelpshiftAPIConfigBuilder.init()
+        convbuilder.showConversationInfoScreen = true
+        let apiconfig = convbuilder.build()
+        HelpshiftSupport.showConversation(self, with: apiconfig)
     }
     
     

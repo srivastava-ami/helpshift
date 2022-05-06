@@ -16,9 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         // Helpshift variables.
         // Ref https://developers.helpshift.com/ios/getting-started/
-        let HSkey = "e2767a2hfsl9f8efe04412d4b9bead8ca"
-        let HSDname = "DOMAIN.helpshift.com"
-        let HSAppId = "DOMAIN_platform_20191119232256372-2e30cc357c68889"
+        let HSkey = "e2767a2d1a9f8efe04412d4b9bead8ca"
+        let HSDname = "amits-demo.helpshift.com"
+        let HSAppId = "amits-demo_platform_20191119232256372-2e30cc357c68889"
         // End of variable declaration
 
         HelpshiftCore.initialize(with: HelpshiftSupport.sharedInstance());
